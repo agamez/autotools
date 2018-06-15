@@ -5,6 +5,7 @@ AC_PREREQ([2.69])
 AC_INIT([autotools-hello], [1.0.0], [alvaro.gamez@hazent.com])
 AC_CONFIG_SRCDIR([libs/libHello.c])
 AC_CONFIG_HEADERS([config.h])
+AM_INIT_AUTOMAKE([foreign])
 
 # Checks for programs.
 AC_PROG_CC
