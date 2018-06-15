@@ -18,6 +18,10 @@ AC_CHECK_LIB([m], [fmod])
 
 # Checks for library functions.
 
-AC_CONFIG_FILES([apps/Makefile
-                 libs/Makefile])
+AC_CONFIG_FILES([
+                 Makefile
+                 apps/Makefile
+                 libs/Makefile
+                 libs/libHello.pc
+                 ])
 AC_OUTPUT
