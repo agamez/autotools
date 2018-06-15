@@ -7,6 +7,8 @@ AC_CONFIG_SRCDIR([libs/libHello.c])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([foreign])
 
+LT_INIT()
+
 # Checks for programs.
 AC_PROG_CC
 
